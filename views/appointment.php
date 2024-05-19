@@ -37,19 +37,5 @@
         <button>Sla op</button>
         <button onclick="window.location.href='/appointment'" type="button">Reset</button>
     </form>
-    <h2>Openingstijden</h2>
-    <p>Maandag: 09:00 - 18:00</p>
-    <p>Dinsdag: 09:00 - 18:00</p>
-    <p>Woensdag: 09:00 - 18:00</p>
-    <p>Donderdag: 09:00 - 18:00</p>
-    <p>Vrijdag: 09:00 - 18:00</p>
-    <p>Zaterdag: 09:00 - 18:00</p>
-    <p>Zondag: Gesloten</p>
-    <h2>Adres</h2>
-    <p>Winkelcentrum 77</p>
-    <p>1234 AB</p>
-    <p>Amsterdam</p>
-    <h2>Contact</h2>
-    <p>Telefoon: 06 12345678</p>
 </body>
 </html>
