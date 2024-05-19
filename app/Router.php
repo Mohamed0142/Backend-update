@@ -45,7 +45,7 @@ class Router
             [$controller, $method] = $controllerAndMethod;
 
             if (!class_exists($controller))
-                throw new Exception('Class not found');
+                throw new \Exception('Class not found');
 
             if (!method_exists($controller, $method))
                 throw new \Exception('Method not found');
