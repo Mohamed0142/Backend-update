@@ -35,7 +35,7 @@
             <input id="nail_repair" name="nail_repair" type="checkbox" style="float: left"/>
         </div>
         <button>Sla op</button>
-        <button onclick="window.location.href='/appointment'" type="button">Reset</button>
+        <button onclick="window.location.href='/'" type="button">Reset</button>
     </form>
 </body>
 </html>

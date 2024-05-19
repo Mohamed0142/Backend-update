@@ -9,14 +9,6 @@ use function School\Database\getDB;
 
 class AppointmentController
 {
-
-    function __get($id): array
-    {
-        $conn = getDB();
-        $stmt = $conn->prepare('SELECT * FROM afspraak WHERE id = :id');
-        $stmt->execute(['id' => $id]);
-        return $stmt->fetch();
-    }
     
     public function index(): string
     {
@@ -33,9 +25,9 @@ class AppointmentController
         $phone_number = $_POST['phone_number'];
         $email = $_POST['email'];
         $appointment_date = $_POST['appointment_date'];
-        $nail_biting = $_POST['nail_biting'];
-        $massage = $_POST['massage']; 
-        $nail_repair = $_POST['nail_repair'];
+        $nail_biting = $_POST['nail_biting'] == 'on' ? 'yes' : 'no';
+        $massage = $_POST['massage'] == 'on' ? 'yes' : 'no'; 
+        $nail_repair = $_POST['nail_repair'] == 'on' ? 'yes' : 'no';
 
         return '';
     }

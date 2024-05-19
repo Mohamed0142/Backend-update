@@ -71,7 +71,7 @@ class __TwigTemplate_ad0de9402f93c277c1ce96be8bacca88 extends Template
             <input id=\"nail_repair\" name=\"nail_repair\" type=\"checkbox\" style=\"float: left\"/>
         </div>
         <button>Sla op</button>
-        <button onclick=\"window.location.href='/appointment'\" type=\"button\">Reset</button>
+        <button onclick=\"window.location.href='/'\" type=\"button\">Reset</button>
     </form>
 </body>
 </html>";
@@ -132,7 +132,7 @@ class __TwigTemplate_ad0de9402f93c277c1ce96be8bacca88 extends Template
             <input id=\"nail_repair\" name=\"nail_repair\" type=\"checkbox\" style=\"float: left\"/>
         </div>
         <button>Sla op</button>
-        <button onclick=\"window.location.href='/appointment'\" type=\"button\">Reset</button>
+        <button onclick=\"window.location.href='/'\" type=\"button\">Reset</button>
     </form>
 </body>
 </html>", "appointment.php", "C:\\laragon\\www\\crud-php-pdo-opdracht01\\views\\appointment.php");
