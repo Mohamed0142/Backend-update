@@ -18,6 +18,7 @@ class AppointmentController
     public function create(): string
     {
 
+        
         $color_1 = $_POST['color_1'];
         $color_2 = $_POST['color_2'];
         $color_3 = $_POST['color_3'];
