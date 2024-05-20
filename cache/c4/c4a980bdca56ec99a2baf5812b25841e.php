@@ -34,12 +34,11 @@ class __TwigTemplate_ad0de9402f93c277c1ce96be8bacca88 extends Template
     {
         $macros = $this->macros;
         // line 1
-        echo "<!doctype html>
+        echo "<!DOCTYPE html>
 <html lang=\"en\">
 <head>
     <meta charset=\"UTF-8\">
-    <meta name=\"viewport\"
-          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">
+    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">
     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">
     <title>Document</title>
     <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/water.css@2/out/water.css\">
@@ -73,8 +72,10 @@ class __TwigTemplate_ad0de9402f93c277c1ce96be8bacca88 extends Template
         <button>Sla op</button>
         <button onclick=\"window.location.href='/'\" type=\"button\">Reset</button>
     </form>
+    
 </body>
-</html>";
+</html>
+";
     }
 
     /**
@@ -95,12 +96,11 @@ class __TwigTemplate_ad0de9402f93c277c1ce96be8bacca88 extends Template
 
     public function getSourceContext()
     {
-        return new Source("<!doctype html>
+        return new Source("<!DOCTYPE html>
 <html lang=\"en\">
 <head>
     <meta charset=\"UTF-8\">
-    <meta name=\"viewport\"
-          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">
+    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">
     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">
     <title>Document</title>
     <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/water.css@2/out/water.css\">
@@ -134,7 +134,9 @@ class __TwigTemplate_ad0de9402f93c277c1ce96be8bacca88 extends Template
         <button>Sla op</button>
         <button onclick=\"window.location.href='/'\" type=\"button\">Reset</button>
     </form>
+    
 </body>
-</html>", "appointment.php", "C:\\laragon\\www\\crud-php-pdo-opdracht01\\views\\appointment.php");
+</html>
+", "appointment.php", "C:\\laragon\\www\\crud-php-pdo-opdracht01\\views\\appointment.php");
     }
 }

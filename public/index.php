@@ -13,6 +13,8 @@ $router = new Router;
 
 $router->add(['get'], '/', [AppointmentController::class, 'index']);
 $router->add(['post'], '/appointment', [AppointmentController::class, 'create']);
+$router->add(['get'], '/show', [AppointmentController::class, 'show']);
+$router->add(['post'], '/appointment/create', [AppointmentController::class, 'create']);
 
 
 $router->resolve();
