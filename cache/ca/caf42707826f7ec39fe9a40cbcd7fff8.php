@@ -106,6 +106,8 @@ class __TwigTemplate_f7829eb44385a3d9a9c424f9ede76aab extends Template
         // line 37
         echo "        </tbody>
     </table>
+    <a href=\"/\">Terug</a>
+    <button>Update</button>
 </body>
 </html>
 ";
@@ -175,6 +177,8 @@ class __TwigTemplate_f7829eb44385a3d9a9c424f9ede76aab extends Template
             {% endfor %}
         </tbody>
     </table>
+    <a href=\"/\">Terug</a>
+    <button>Update</button>
 </body>
 </html>
 ", "appointment.show.php", "C:\\laragon\\www\\crud-php-pdo-opdracht01\\views\\appointment.show.php");

@@ -36,5 +36,7 @@
             {% endfor %}
         </tbody>
     </table>
+    <a href="/">Terug</a>
+    <button>Update</button>
 </body>
 </html>
